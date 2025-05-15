@@ -1,0 +1,16 @@
+/*#heading{
+    color:pink;
+    background-color: blue;
+}*/
+p{ 
+    color:gray;
+    background-color: green;
+}
+button{
+    color: aqua;
+    background-color: red;
+}
+.heading{
+    color:yellow;
+    background-color: blue;
+}
