@@ -13,3 +13,14 @@ let firstEl=document.querySelector(".class");
 console.dir(firstEl);
 let allEl=document.querySelectorAll("p");
 console.dir(allEl);
+let btn1=document.querySelector("#btn1");
+btn1.onclick=(evt)=>{
+    console.log(evt.target);
+    console.log(evt.type);
+    console.log(evt.clientx);
+    console.log(evt);
+   // console.log("btn1 was clicked");
+   // let a=24;
+   // a++;
+   // console.log(a);//
+};
